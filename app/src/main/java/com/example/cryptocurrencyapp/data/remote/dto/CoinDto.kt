@@ -1,6 +1,6 @@
 package com.example.cryptocurrencyapp.data.remote.dto
 
-import com.example.cryptocurrencyapp.di.model.Coin
+import com.example.cryptocurrencyapp.domain.model.Coin
 import com.google.gson.annotations.SerializedName
 
 data class CoinDto(
