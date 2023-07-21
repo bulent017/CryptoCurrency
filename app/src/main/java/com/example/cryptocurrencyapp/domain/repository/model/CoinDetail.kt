@@ -1,4 +1,4 @@
-package com.example.cryptocurrencyapp.domain.model
+package com.example.cryptocurrencyapp.domain.repository.model
 
 import com.example.cryptocurrencyapp.data.remote.dto.TeamMember
 

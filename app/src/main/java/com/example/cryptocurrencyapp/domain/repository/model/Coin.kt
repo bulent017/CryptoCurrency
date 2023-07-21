@@ -1,4 +1,4 @@
-package com.example.cryptocurrencyapp.domain.model
+package com.example.cryptocurrencyapp.domain.repository.model
 
 data class Coin(
     val id: String,
