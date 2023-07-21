@@ -13,9 +13,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 
-@Module
+@Module /* Bu annotation, bu sınıfın bir Dagger modülü olduğunu belirtir. Dagger, bir DI framework'üdür ve modüller, bir uygulamanın ihtiyaç duyduğu bağımlılıkların nasıl sağlanacağını belirtir.*/
 @InstallIn(SingletonComponent::class)
-object AppModule {
+object AppModule { // Singelton
     @Provides
     @Singleton
     fun providePaprikaApi(): CoinPaprikaApi {
